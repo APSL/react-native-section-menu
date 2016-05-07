@@ -1,2 +1,2 @@
 # react-native-section-menu
-A multi-platform React Native sectioned menu
+🚧**Work in progress**. A multi-platform React Native sectioned menu
