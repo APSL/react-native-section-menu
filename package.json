@@ -1,0 +1,25 @@
+{
+  "name": "react-native-section-menu",
+  "version": "0.1.0",
+  "description": "A multi-platform React Native sectioned menu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/APSL/react-native-section-menu.git"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "react-component"
+  ],
+  "author": "Alvaro Medina Ballester <me@alvaromb.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/APSL/react-native-section-menu/issues"
+  },
+  "homepage": "https://github.com/APSL/react-native-section-menu#readme"
+}
