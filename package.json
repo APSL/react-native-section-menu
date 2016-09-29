@@ -16,7 +16,7 @@
     "android",
     "react-component"
   ],
-  "author": "Alvaro Medina Ballester <me@alvaromb.com>",
+  "author": "Alvaro Medina Ballester <me@alvaromb.com> & Dani Sastre <sastred@apsl.net>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/APSL/react-native-section-menu/issues"
