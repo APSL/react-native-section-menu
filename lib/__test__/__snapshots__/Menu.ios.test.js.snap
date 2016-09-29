@@ -1,0 +1,95 @@
+exports[`Menu Renders 1`] = `
+<TabBarIOS
+  entries={
+    Array [
+      Object {
+        "element": <class extends RealComponent {
+          render() {
+            return React.createElement(
+            RealComponent.displayName,
+            this.props,
+            this.props.children);
+    
+          }} />,
+        "id": 0,
+        "title": "First"
+      },
+      Object {
+        "element": <class extends RealComponent {
+          render() {
+            return React.createElement(
+            RealComponent.displayName,
+            this.props,
+            this.props.children);
+    
+          }} />,
+        "id": 1,
+        "title": "Second"
+      },
+      Object {
+        "element": <class extends RealComponent {
+          render() {
+            return React.createElement(
+            RealComponent.displayName,
+            this.props,
+            this.props.children);
+    
+          }} />,
+        "id": 2,
+        "title": "Third"
+      }
+    ]
+  }>
+  <TabBarItemIOS
+    element={
+      <class extends RealComponent {
+            render() {
+              return React.createElement(
+              RealComponent.displayName,
+              this.props,
+              this.props.children);
+      
+            }} />
+    }
+    id={0}
+    onPress={[Function bound _onPressItem]}
+    selected={true}
+    title="First">
+    <View />
+  </TabBarItemIOS>
+  <TabBarItemIOS
+    element={
+      <class extends RealComponent {
+            render() {
+              return React.createElement(
+              RealComponent.displayName,
+              this.props,
+              this.props.children);
+      
+            }} />
+    }
+    id={1}
+    onPress={[Function bound _onPressItem]}
+    selected={false}
+    title="Second">
+    <View />
+  </TabBarItemIOS>
+  <TabBarItemIOS
+    element={
+      <class extends RealComponent {
+            render() {
+              return React.createElement(
+              RealComponent.displayName,
+              this.props,
+              this.props.children);
+      
+            }} />
+    }
+    id={2}
+    onPress={[Function bound _onPressItem]}
+    selected={false}
+    title="Third">
+    <View />
+  </TabBarItemIOS>
+</TabBarIOS>
+`;

@@ -4,7 +4,18 @@
   "description": "A multi-platform React Native sectioned menu",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint lib/*.js",
+    "test": "npm run lint && jest --verbose"
+  },
+  "jest": {
+    "preset": "jest-react-native",
+    "modulePathIgnorePatterns": [
+      "Example",
+      "node_modules/react-native/node_modules/"
+    ],
+    "preprocessorIgnorePatterns": [
+      "node_modules/(?!react-native|my-project|react-native-button)"
+    ]
   },
   "repository": {
     "type": "git",
@@ -21,5 +32,23 @@
   "bugs": {
     "url": "https://github.com/APSL/react-native-section-menu/issues"
   },
-  "homepage": "https://github.com/APSL/react-native-section-menu#readme"
+  "dependencies": {
+    "lodash.isequal": "^4.4.0"
+  },
+  "homepage": "https://github.com/APSL/react-native-section-menu#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "babel-jest": "^15.0.0",
+    "babel-preset-react-native": "^1.9.0",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "eslint": "^3.6.1",
+    "eslint-plugin-react": "^6.3.0",
+    "eslint-plugin-react-native": "^2.0.0",
+    "jest": "^15.1.1",
+    "jest-react-native": "^15.0.0",
+    "react": "^15.3.2",
+    "react-native": "^0.34.1",
+    "react-test-renderer": "^15.3.2",
+    "whatwg-fetch": "^1.0.0"
+  }
 }
