@@ -17,7 +17,7 @@ $ npm i --save-dev react-native-section-menu
 
 ## Usage
 
-To render a basic menu, take the following code as an example. It will render a green header in Android with a drawer-based animation and a TabBar navigation for iOS.
+To render a basic menu, take the following code as an example. It will render a green header in Android with a drawer-based animation and a TabBar navigation for iOS. You can combine this component with [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) to fully customize the icons of your menu.
 
 ```js
 import { Menu } from 'react-native-section-menu'
@@ -53,9 +53,56 @@ class MyMenu extends React.Component {
 ```
 
 ## API
+### Required
+| Prop | Type | Description |
+|------|------|-------------|
+| `entries` | `Array<Entry>` | An array of menu entries. |
+
+#### `Entry` object
+| Prop | Type | Description |
+|------|------|-------------|
+| `id` | `number` | A numeric identifier. |
+| `title` | `string` | The title of the section. |
+| `element` | `element` | The element to render in the section. |
+
+### Not required
+| Prop | Type | Description |
+|------|------|-------------|
+| `initialEntry` | `number` | A number to mark the entry to render by default. |
+
+### iOS specific
+| Prop | Type | Description |
+|------|------|-------------|
+|  | `TabBarIOS.propTypes` | You can pass all the props. Docs [here](http://facebook.github.io/react-native/releases/0.34/docs/tabbarios.html#tabbarios). |
+|
+
+#### `Entry` object
+| Prop | Type | Description |
+|------|------|-------------|
+| `itemComponent` | `func` | Pass here `Icon.TabBarItemIOS` to use `react-native-vector-icons` TabBar item. |
+| `iconName` | `string` | The `react-native-vector-icons` icon name. |
+| `selectedIconName` | `string` | The `react-native-vector-icons` selected icon name. |
+| `iconSize` | `number` | The `react-native-vector-icons` icon size. |
+
+### Android specific
+| Prop | Type | Description |
+|------|------|-------------|
+| | `DrawerLayoutAndroid.propTypes` | `DrawerLayoutAndroid` available props. |
+| `containerStyle` | `View.propTypes.style` | The style of the parent container view. |
+| `header` | `node` | Optional header to display above the menu list. |
+
+#### `Entry` object
+| Prop | Type | Description |
+|------|------|-------------|
+| `androidIcon` | `node` | A React node to render as an icon. |
+| `androidBackground` | `TouchableNativeFeedback.propTypes.background` | The background effect of the entry section. |
+| `tintColor` | `string` | The tint color of the selected entry. |
 
 ## License
 MIT
+
+## How to contribute
+Please open an issue or send a PR ☺️.
 
 ## Authors
 
