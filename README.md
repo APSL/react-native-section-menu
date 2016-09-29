@@ -107,4 +107,4 @@ Please open an issue or send a PR ☺️.
 
 Álvaro Medina Ballester `amedina at apsl.net`.
 
-Dani Sastre `sastred at apsl.net`
+Dani Sastre `dsastre at apsl.net`
