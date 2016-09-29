@@ -74,7 +74,6 @@ class MyMenu extends React.Component {
 | Prop | Type | Description |
 |------|------|-------------|
 |  | `TabBarIOS.propTypes` | You can pass all the props. Docs [here](http://facebook.github.io/react-native/releases/0.34/docs/tabbarios.html#tabbarios). |
-|
 
 #### `Entry` object
 | Prop | Type | Description |
@@ -106,5 +105,6 @@ Please open an issue or send a PR ☺️.
 
 ## Authors
 
-Álvaro Medina Ballester <amedina apsl.net>
-Dani Sastre <sastred apsl.net>
+Álvaro Medina Ballester `amedina at apsl.net`.
+
+Dani Sastre `sastred at apsl.net`
