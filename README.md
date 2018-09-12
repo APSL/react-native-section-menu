@@ -4,6 +4,9 @@
 
 A multi-platform React Native sectioned menu.
 
+## ⚠️ DEPRECATED ⚠️
+This component has been deprecated. Use it at your own risk.
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/wiki/APSL/react-native-section-menu/menu.ios.gif" alt="iOS menu" width="400">
 <img src="https://raw.githubusercontent.com/wiki/APSL/react-native-section-menu/menu.android.gif" alt="Android menu" width="400">
